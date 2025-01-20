@@ -1,4 +1,4 @@
-![Westfalenfahrplan.NET icon](https://github.com/jjb-pro/Westfalenfahrplan.NET/blob/main/Westfalenfahrplan.NET/assets/icon.png)  
+![Westfalenfahrplan.NET icon](https://github.com/jjb-pro/Westfalenfahrplan.NET/blob/main/assets/icon.png)  
 # Westfalenfahrplan.NET
 
 [![NuGet](https://img.shields.io/nuget/v/Westfalenfahrplan.NET.svg)](https://www.nuget.org/packages/Westfalenfahrplan.NET)
