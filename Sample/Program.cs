@@ -33,9 +33,7 @@ foreach (var stopEvent in realtimeData.StopEvents)
     foreach (var info in stopEvent.Infos)
     {
         foreach (var link in info.InfoLinks)
-        {
             Console.WriteLine($"Additional info: {link.Title}");
-        }
     }
 
     Console.ResetColor();

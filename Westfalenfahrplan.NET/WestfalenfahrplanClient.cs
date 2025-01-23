@@ -16,7 +16,7 @@ namespace Westfalenfahrplan.NET
     {
         private readonly HttpClient _httpClient;
 
-        private readonly JsonSerializerSettings _jsonSettings = new JsonSerializerSettings() { Converters = new List<JsonConverter>() { new CoordinateConverter(), new UniqueIdConverter(), new DateRangeConverter() } };
+        private readonly JsonSerializerSettings _jsonSettings = new JsonSerializerSettings() { Converters = new List<JsonConverter>() { new CoordinateConverter(), new UniqueIdConverter(), new DateRangeConverter(), new RealtimeStatusConverter() } };
 
         private const string BaseUrl = "https://westfalenfahrplan.de/nwl-efa/";
 

@@ -5,7 +5,7 @@ using Westfalenfahrplan.NET.Model;
 
 namespace Westfalenfahrplan.NET.Converters
 {
-    public class DateRangeConverter : JsonConverter<DateRange>
+    internal class DateRangeConverter : JsonConverter<DateRange>
     {
         private const string DateFormat = "dd/MM/yyyy HH:mm";
 
